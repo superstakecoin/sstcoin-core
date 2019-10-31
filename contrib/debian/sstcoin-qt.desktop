@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SuperStakeCoin
+Comment=SuperStakeCoin P2P Cryptocurrency
+Comment[fr]=SuperStakeCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SuperStakeCoin, eşten eşe kriptografik sanal para birimi
+Exec=sstcoin-qt %u
+Terminal=false
+Type=Application
+Icon=sstcoin128
+MimeType=x-scheme-handler/sstcoin;
+Categories=Office;Finance;

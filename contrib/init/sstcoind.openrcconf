@@ -1,0 +1,26 @@
+# /etc/conf.d/sstcoind: config file for /etc/init.d/sstcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sstcoin/sstcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sstcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sstcoind.pid"
+
+# Where to write sstcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sstcoind"
+
+# User and group to own sstcoind process
+#BITCOIND_USER="sstcoin"
+#BITCOIND_GROUP="sstcoin"
+
+# Path to sstcoind executable
+#BITCOIND_BIN="/usr/bin/sstcoind"
+
+# Nice value to run sstcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
